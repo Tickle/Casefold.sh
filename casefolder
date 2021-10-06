@@ -1,3 +1,4 @@
+#!/bin/bash
 find "$1" -type d | uniq >> temp.txt
 mkdir result
 while IFS= read -r i
